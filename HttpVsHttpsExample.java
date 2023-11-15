@@ -23,6 +23,7 @@ public class HttpVsHttpsExample {
         }
     }
 
+
     private static void sendRequest(String urlString) throws IOException {
         URL url = new URL(urlString);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
